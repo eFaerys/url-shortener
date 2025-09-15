@@ -1,30 +1,29 @@
 # URL Shortener App
 
-Une application simple pour raccourcir des URLs, avec un backend en NestJS et un frontend en React + TypeScript + Vite.
+A simple application to shorten URLs, with a backend built in NestJS and a frontend in React + TypeScript + Vite.
 
 ---
 
-## Structure du projet
+## Project Structure
 
-Le projet est organisé en deux parties :
+The project is organized into two parts:
 
-- **back** : Backend développé avec [NestJS](https://nestjs.com/) et TypeScript, utilisant une base de données SQLite.
-- **front** : Frontend développé avec [React](https://reactjs.org/) + TypeScript et [Vite](https://vitejs.dev/).
-
----
-
-## Prérequis
-
-- [Docker](https://www.docker.com/) et [Docker Compose](https://docs.docker.com/compose/) installés sur votre machine.
-- Définir vos .env en vous basant sur le .envexemple
+- **back**: Backend developed with [NestJS](https://nestjs.com/) and TypeScript, using a SQLite database.  
+- **front**: Frontend developed with [React](https://reactjs.org/) + TypeScript and [Vite](https://vitejs.dev/).  
 
 ---
 
-## Lancer le projet
+## Prerequisites
 
-1. Cloner le dépôt :
+- [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed on your machine.  
+- Configure your `.env` files based on the provided `.envexample`.  
 
-```bash
-git clone <URL_DU_DEPOT>
-cd <NOM_DU_PROJET>
-docker compose up --build -d
+---
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone <REPOSITORY_URL>
+   cd <PROJECT_NAME>
