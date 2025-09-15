@@ -18,7 +18,6 @@ const CreateUrl: FC = () => {
 	const onSubmit: SubmitHandler<LongUrl> = async (data) => {
 		shortenUrl(data.longUrl).then((newLink) => {
 			setShortUrl({url: newLink.url, resquestAccess: newLink.resquestAccess});
-			console.log(newLink);
 			setShowModal(true);
 			reset();
 		}).catch((e) => {
