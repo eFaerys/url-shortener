@@ -27,3 +27,4 @@ The project is organized into two parts:
    ```bash
    git clone <REPOSITORY_URL>
    cd <PROJECT_NAME>
+   docker compose up --build -d
